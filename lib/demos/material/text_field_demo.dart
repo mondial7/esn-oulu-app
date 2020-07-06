@@ -221,11 +221,11 @@ class TextFormFieldDemoState extends State<TextFormFieldDemo> {
                   maxLengthEnforced: false,
                   validator: _validatePhoneNumber,
                   // TextInputFormatters are applied in sequence.
-                  inputFormatters: <TextInputFormatter>[
-                    FilteringTextInputFormatter.digitsOnly,
-                    // Fit the validating format.
-                    _phoneNumberFormatter,
-                  ],
+//                  inputFormatters: <TextInputFormatter>[
+//                    FilteringTextInputFormatter.digitsOnly,
+//                    // Fit the validating format.
+//                    x ,
+//                  ],
                 ),
                 sizedBoxSpace,
                 TextFormField(
